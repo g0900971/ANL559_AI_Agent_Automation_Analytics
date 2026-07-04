@@ -29,6 +29,7 @@ This gives students a concrete habit: they do not just prompt an agent; they tur
 | `Instructor_Delivery_Notes.md` | Detailed weekly teaching notes, preparation guidance, expected outputs, and fallback paths. |
 | `Weekly_Case_Packs.md` | Detailed week-by-week case studies with stakeholder brief, data context, failure cards, expected evidence, and solution guidance. |
 | `Pre_Class_Briefs/` | Student-facing weekly pre-class problem briefs with scenario context, available data, and pre-thinking questions only. |
+| `PDFs/Pre_Class_Briefs/` | Weekly student and instructor PDF versions of the pre-class briefs. |
 | `Student_Workbook.md` | Student-facing context, weekly checklists, evidence expectations, and glossary. |
 | `Student_Local_Python_Setup.md` | Student-facing local Python installation, virtual environment, package install, and setup-check guide. |
 | `Mission_Cards.md` | Student-facing weekly mission cards. |
@@ -43,7 +44,7 @@ This gives students a concrete habit: they do not just prompt an agent; they tur
 | `Starter_Kit/` | Templates and sample data so the seminars can run without external datasets. |
 | `Slide_Decks/` | Six expanded PowerPoint decks, 77 slides each. Treat the Markdown guides as the current source of truth before refreshing slide exports. |
 | `PDFs/` | PDF exports of the six expanded seminar decks, 77 pages each. |
-| `PDFs/Documents/` | PDF exports of the main instructor and student guide documents. |
+| `PDFs/Documents/` | PDF exports of the main instructor and student guide documents, including combined student and instructor pre-class packs. |
 | `Course_Revamp_Review.md` | Audit findings, changes made in the revamp, and recommended next maintenance steps. |
 
 ## Self-Contained Use
@@ -56,7 +57,7 @@ Recommended use sequence:
 2. Read `Studio_Course_Blueprint.md` for the six-week arc.
 3. Read `Weekly_Case_Packs.md` for the detailed weekly stakeholder cases, traps, expected evidence, and solution guidance.
 4. Read `Instructor_Delivery_Notes.md` before teaching each seminar.
-5. Before each seminar, release only the matching file from `Pre_Class_Briefs/` if students should prepare without seeing the classroom activity design.
+5. Before each seminar, release only the matching student file from `Pre_Class_Briefs/` or `PDFs/Pre_Class_Briefs/` if students should prepare without seeing the classroom activity design.
 6. Give students `Student_Local_Python_Setup.md` before Week 1 if local Python will be used.
 7. Give students `Student_Workbook.md`, `Mission_Cards.md`, and the relevant files from `Starter_Kit/`.
 8. Use `Sample_Data_and_Scenarios.md` to explain the fictional company, data fields, known checks, and intentional defects.

@@ -4,6 +4,8 @@ These are student-facing problem briefs for pre-class preparation.
 
 Use them before class when you want students to understand the business problem, inspect the available data, and arrive with questions. These briefs intentionally stop before the in-class activity design.
 
+PDF versions are available in `PDFs/Pre_Class_Briefs/`. The combined student pack and combined instructor companion are available in `PDFs/Documents/`.
+
 Recommended use:
 
 1. Release only the relevant weekly brief before class.
