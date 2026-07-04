@@ -68,14 +68,16 @@ By the end of the course, students should be able to:
 
 Each seminar now has four levels of support:
 
-1. **Slide deck:** use this for the live teaching flow.
-2. **Weekly case pack:** use `Weekly_Case_Packs.md` for the detailed stakeholder story, data context, failure cards, expected evidence, and solution guidance.
-3. **Exercise sheet:** use the matching file in `Exercises/` for timed classroom activities and instructor solution notes.
-4. **Worked example:** show one example from `Worked_Examples.md` or `Starter_Kit/examples/` before students build.
-5. **Template:** give students the relevant template from `Starter_Kit/templates/` so they know what evidence to submit.
+1. **Pre-class brief:** release the matching file in `Pre_Class_Briefs/` before class when you want students to arrive with problem understanding but not the activity design.
+2. **Slide deck:** use this for the live teaching flow.
+3. **Weekly case pack:** use `Weekly_Case_Packs.md` for the detailed stakeholder story, data context, failure cards, expected evidence, and solution guidance.
+4. **Exercise sheet:** use the matching file in `Exercises/` for timed classroom activities and instructor solution notes.
+5. **Worked example:** show one example from `Worked_Examples.md` or `Starter_Kit/examples/` before students build.
+6. **Template:** give students the relevant template from `Starter_Kit/templates/` so they know what evidence to submit.
 
 Suggested pattern:
 
+- Before class, release only the weekly pre-class brief if students should prepare without seeing the classroom instructions.
 - Before class, read the weekly case pack and choose which failure cards to release.
 - Before Sprint A, show one worked example for two minutes.
 - During Sprint A, let students build with the template open.

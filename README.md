@@ -28,6 +28,7 @@ This gives students a concrete habit: they do not just prompt an agent; they tur
 | `Facilitation_Guide.md` | Teaching moves, room setup, timing, and instructor prompts. |
 | `Instructor_Delivery_Notes.md` | Detailed weekly teaching notes, preparation guidance, expected outputs, and fallback paths. |
 | `Weekly_Case_Packs.md` | Detailed week-by-week case studies with stakeholder brief, data context, failure cards, expected evidence, and solution guidance. |
+| `Pre_Class_Briefs/` | Student-facing weekly pre-class problem briefs with scenario context, available data, and pre-thinking questions only. |
 | `Student_Workbook.md` | Student-facing context, weekly checklists, evidence expectations, and glossary. |
 | `Student_Local_Python_Setup.md` | Student-facing local Python installation, virtual environment, package install, and setup-check guide. |
 | `Mission_Cards.md` | Student-facing weekly mission cards. |
@@ -55,14 +56,15 @@ Recommended use sequence:
 2. Read `Studio_Course_Blueprint.md` for the six-week arc.
 3. Read `Weekly_Case_Packs.md` for the detailed weekly stakeholder cases, traps, expected evidence, and solution guidance.
 4. Read `Instructor_Delivery_Notes.md` before teaching each seminar.
-5. Give students `Student_Local_Python_Setup.md` before Week 1 if local Python will be used.
-6. Give students `Student_Workbook.md`, `Mission_Cards.md`, and the relevant files from `Starter_Kit/`.
-7. Use `Sample_Data_and_Scenarios.md` to explain the fictional company, data fields, known checks, and intentional defects.
-8. Use the matching weekly file in `Exercises/` for guided practice.
-9. Show examples from `Worked_Examples.md` or `Starter_Kit/examples/` before students build.
-10. Use `Prompt_Guidelines_and_Library.md` when students need help supervising the agent.
-11. Teach from the weekly 77-slide deck in `Slide_Decks/`, or distribute the matching PDF from `PDFs/`.
-12. Assess using `Portfolio_and_Assessment_Model.md`.
+5. Before each seminar, release only the matching file from `Pre_Class_Briefs/` if students should prepare without seeing the classroom activity design.
+6. Give students `Student_Local_Python_Setup.md` before Week 1 if local Python will be used.
+7. Give students `Student_Workbook.md`, `Mission_Cards.md`, and the relevant files from `Starter_Kit/`.
+8. Use `Sample_Data_and_Scenarios.md` to explain the fictional company, data fields, known checks, and intentional defects.
+9. Use the matching weekly file in `Exercises/` for guided practice.
+10. Show examples from `Worked_Examples.md` or `Starter_Kit/examples/` before students build.
+11. Use `Prompt_Guidelines_and_Library.md` when students need help supervising the agent.
+12. Teach from the weekly 77-slide deck in `Slide_Decks/`, or distribute the matching PDF from `PDFs/`.
+13. Assess using `Portfolio_and_Assessment_Model.md`.
 
 ## Local Python Setup
 

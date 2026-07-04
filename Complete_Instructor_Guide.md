@@ -60,6 +60,7 @@ Use the package as follows:
 | `Instructor_Delivery_Notes.md` | Instructor | Week-by-week teaching notes. |
 | `Facilitation_Guide.md` | Instructor | Teaching moves, roles, inclusion, and classroom operations. |
 | `Weekly_Case_Packs.md` | Instructor and students | Detailed case studies, data context, failure cards, expected evidence, and solution guidance. |
+| `Pre_Class_Briefs/` | Students | Short weekly problem briefs for pre-class reading, with data context and pre-thinking questions only. |
 | `Student_Workbook.md` | Students | Weekly student instructions and evidence expectations. |
 | `Mission_Cards.md` | Students | Compact weekly mission briefs. |
 | `Exercises/` | Instructor and students | Detailed weekly exercises, timings, prompts, and solution notes. |
