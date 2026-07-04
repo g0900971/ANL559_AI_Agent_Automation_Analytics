@@ -38,6 +38,15 @@ Recommended classroom setup:
 - The `Starter_Kit/` folder from this package.
 - A projector view where the instructor can show the defect wall and live demo.
 
+If students will run Python locally, distribute `Student_Local_Python_Setup.md` before Week 1 and ask them to run:
+
+```powershell
+python scripts\check_python_setup.py
+python Starter_Kit\examples\week1_kpi_smoke_checks.py
+```
+
+Collecting the output before class prevents setup problems from consuming the first studio sprint.
+
 Low-tech fallback:
 
 - Students can use spreadsheet formulas instead of Python for Weeks 1-2.

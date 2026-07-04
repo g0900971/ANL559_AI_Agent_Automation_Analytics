@@ -29,6 +29,7 @@ This gives students a concrete habit: they do not just prompt an agent; they tur
 | `Instructor_Delivery_Notes.md` | Detailed weekly teaching notes, preparation guidance, expected outputs, and fallback paths. |
 | `Weekly_Case_Packs.md` | Detailed week-by-week case studies with stakeholder brief, data context, failure cards, expected evidence, and solution guidance. |
 | `Student_Workbook.md` | Student-facing context, weekly checklists, evidence expectations, and glossary. |
+| `Student_Local_Python_Setup.md` | Student-facing local Python installation, virtual environment, package install, and setup-check guide. |
 | `Mission_Cards.md` | Student-facing weekly mission cards. |
 | `Exercises/` | Detailed weekly exercise sheets with timing, instructions, expected evidence, instructor notes, and extensions. |
 | `Worked_Examples.md` | Concrete examples of good work orders, logs, audits, memos, input contracts, answers, and launch recommendations. |
@@ -36,6 +37,8 @@ This gives students a concrete habit: they do not just prompt an agent; they tur
 | `Portfolio_and_Assessment_Model.md` | Studio-style portfolio evidence, rubric, and viva prompts. |
 | `Sample_Data_and_Scenarios.md` | Synthetic scenario context, data defects, schemas, and incident injects. |
 | `Teaching_Practice_Review.md` | Review against teaching-practice principles and the revamp decisions applied. |
+| `requirements.txt` | Python packages for local student environments. |
+| `scripts/check_python_setup.py` | Setup checker for Python version and required packages. |
 | `Starter_Kit/` | Templates and sample data so the seminars can run without external datasets. |
 | `Slide_Decks/` | Six expanded PowerPoint decks, 77 slides each. Treat the Markdown guides as the current source of truth before refreshing slide exports. |
 | `PDFs/` | PDF exports of the six expanded seminar decks, 77 pages each. |
@@ -52,13 +55,25 @@ Recommended use sequence:
 2. Read `Studio_Course_Blueprint.md` for the six-week arc.
 3. Read `Weekly_Case_Packs.md` for the detailed weekly stakeholder cases, traps, expected evidence, and solution guidance.
 4. Read `Instructor_Delivery_Notes.md` before teaching each seminar.
-5. Give students `Student_Workbook.md`, `Mission_Cards.md`, and the relevant files from `Starter_Kit/`.
-6. Use `Sample_Data_and_Scenarios.md` to explain the fictional company, data fields, known checks, and intentional defects.
-7. Use the matching weekly file in `Exercises/` for guided practice.
-8. Show examples from `Worked_Examples.md` or `Starter_Kit/examples/` before students build.
-9. Use `Prompt_Guidelines_and_Library.md` when students need help supervising the agent.
-10. Teach from the weekly 77-slide deck in `Slide_Decks/`, or distribute the matching PDF from `PDFs/`.
-11. Assess using `Portfolio_and_Assessment_Model.md`.
+5. Give students `Student_Local_Python_Setup.md` before Week 1 if local Python will be used.
+6. Give students `Student_Workbook.md`, `Mission_Cards.md`, and the relevant files from `Starter_Kit/`.
+7. Use `Sample_Data_and_Scenarios.md` to explain the fictional company, data fields, known checks, and intentional defects.
+8. Use the matching weekly file in `Exercises/` for guided practice.
+9. Show examples from `Worked_Examples.md` or `Starter_Kit/examples/` before students build.
+10. Use `Prompt_Guidelines_and_Library.md` when students need help supervising the agent.
+11. Teach from the weekly 77-slide deck in `Slide_Decks/`, or distribute the matching PDF from `PDFs/`.
+12. Assess using `Portfolio_and_Assessment_Model.md`.
+
+## Local Python Setup
+
+If students will run Python locally, ask them to complete `Student_Local_Python_Setup.md` before Week 1.
+
+Quick check after setup:
+
+```powershell
+python scripts\check_python_setup.py
+python Starter_Kit\examples\week1_kpi_smoke_checks.py
+```
 
 Each weekly deck is designed for a three-hour seminar and now contains 77 slides. The deck is a teaching spine, not a lecture script: some slides are transition cues, some are activity timers, and some are instructor support for build, break, repair, peer review, and defence.
 

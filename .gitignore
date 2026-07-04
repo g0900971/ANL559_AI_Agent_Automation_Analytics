@@ -2,6 +2,11 @@
 tmp/
 .agents/
 
+# Local Python environments and caches
+.venv/
+__pycache__/
+*.pyc
+
 # Microsoft Office lock files
 ~$*
 Slide_Decks/~$*.pptx

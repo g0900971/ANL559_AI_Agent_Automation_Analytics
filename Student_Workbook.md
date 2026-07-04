@@ -17,6 +17,7 @@ You are not assessed on whether the agent gives a perfect answer. You are assess
 ## What To Bring Each Week
 
 - A laptop with the agreed class tools.
+- If your instructor requires local Python: a completed setup from `Student_Local_Python_Setup.md`.
 - Access to the team repo or shared folder.
 - The weekly mission card.
 - The starter data or scenario files.
@@ -30,6 +31,7 @@ Use these files every week:
 - `Mission_Cards.md` tells you the practical mission.
 - `Weekly_Case_Packs.md` gives the fuller case story, stakeholder pressure, data context, known traps, and evidence expectations.
 - `Student_Workbook.md` explains what to build, break, and submit.
+- `Student_Local_Python_Setup.md` helps you prepare local Python, a virtual environment, packages, and setup checks.
 - `Exercises/Week_*.md` gives the detailed classroom activities.
 - `Prompt_Guidelines_and_Library.md` helps you write better agent instructions.
 - `Worked_Examples.md` shows what strong evidence looks like.

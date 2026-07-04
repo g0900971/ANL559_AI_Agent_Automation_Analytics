@@ -97,6 +97,15 @@ Recommended:
 - Git or a simple shared-folder workflow.
 - AI-agent access for each team.
 
+If students will run Python locally, distribute `Student_Local_Python_Setup.md` before Week 1. Ask students to run:
+
+```powershell
+python scripts\check_python_setup.py
+python Starter_Kit\examples\week1_kpi_smoke_checks.py
+```
+
+This catches setup issues before they consume studio time.
+
 If not all students can code:
 
 - Use spreadsheets for Weeks 1 and 2.
