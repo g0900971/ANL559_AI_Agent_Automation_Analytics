@@ -16,8 +16,10 @@ The course uses these core packages:
 - `pandas` and `numpy` for data work.
 - `scikit-learn` for simple modelling in Week 3.
 - `matplotlib` for quick charts.
-- `jupyterlab` for notebooks.
+- `ipykernel` so notebooks can run in VS Code.
 - `pytest` for simple tests and checks.
+
+On Windows, avoid placing the course folder inside a very deep path if students plan to install many Python packages. A short path such as `C:\ANL559\AI_Analytics_Studio_Refresh` reduces path-length problems.
 
 ## Windows Setup
 
@@ -181,6 +183,8 @@ File > Open Folder > AI_Analytics_Studio_Refresh
 
 When VS Code asks for a Python interpreter, choose the one inside `.venv`.
 
+This setup uses VS Code's Jupyter extension for notebooks. Students do not need to install full JupyterLab unless the instructor specifically asks for it.
+
 ## Common Problems
 
 ### `python` is not recognized
@@ -241,4 +245,3 @@ python Starter_Kit\examples\week1_kpi_smoke_checks.py
 ```
 
 This catches setup problems before the first studio sprint.
-

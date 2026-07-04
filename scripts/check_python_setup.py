@@ -10,7 +10,7 @@ PACKAGES = {
     "numpy": "numpy",
     "scikit-learn": "sklearn",
     "matplotlib": "matplotlib",
-    "jupyterlab": "jupyterlab",
+    "ipykernel": "ipykernel",
     "pytest": "pytest",
 }
 
