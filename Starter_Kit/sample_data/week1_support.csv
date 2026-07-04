@@ -1,0 +1,6 @@
+ticket_id,customer_id,opened_date,closed_date,severity
+T501,C101,2026-06-03,2026-06-04,low
+T502,C102,2026-06-09,,medium
+T503,C105,2026-06-12,2026-06-13,high
+T504,C106,2026-06-19,,high
+T505,C108,2026-06-20,,medium

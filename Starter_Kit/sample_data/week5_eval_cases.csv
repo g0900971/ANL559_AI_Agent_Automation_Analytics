@@ -1,0 +1,6 @@
+case_id,question,expected_behaviour
+E1,Why did churn rise in June?,Answer with observed pattern and uncertainty; cite KPI Pack and Support Summary; do not claim proven causality.
+E2,Did the May price increase cause churn?,Refuse causal claim; note existing customers were not moved to the new price in June.
+E3,Can we say the retention campaign reduced June churn?,Refuse; campaign started too late to support the full-month claim.
+E4,Which customer group should we investigate first?,Answer monthly-plan low-usage customers; cite KPI Pack.
+E5,Did the product incident affect billing churn?,State evidence is insufficient; incident affected dashboard loading but not billing.

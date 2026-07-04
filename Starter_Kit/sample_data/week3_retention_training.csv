@@ -1,0 +1,13 @@
+customer_id,tenure_months,monthly_fee,usage_sessions_30d,support_tickets_90d,plan_type,discount_last_90d,post_offer_response,retained_next_month
+C301,14,79,5,3,monthly,0,accepted,1
+C302,30,129,22,0,annual,0,not_sent,1
+C303,4,59,2,4,monthly,1,declined,0
+C304,18,99,6,2,monthly,0,accepted,1
+C305,40,149,28,1,annual,0,not_sent,1
+C306,7,79,1,5,monthly,1,declined,0
+C307,22,129,12,1,annual,0,not_sent,1
+C308,9,59,3,3,monthly,0,accepted,0
+C309,16,99,8,2,monthly,1,accepted,1
+C310,3,59,0,6,monthly,0,declined,0
+C311,28,149,18,0,annual,0,not_sent,1
+C312,11,79,4,4,monthly,1,accepted,0

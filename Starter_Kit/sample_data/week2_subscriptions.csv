@@ -1,0 +1,11 @@
+customer_id,plan,billing_status,billing_start,billing_end
+C201,basic,active,2025-01-01,
+C202,pro,active,2025-02-01,
+C203,basic,cancelled,2025-03-01,2026-06-05
+C204,enterprise,cancelled,2024-10-01,2026-06-15
+C205,pro,active,2025-11-01,
+C206,basic,active,2026-01-01,
+C207,basic,cancelled,2025-09-01,2026-05-28
+C208,enterprise,active,2024-05-01,
+C209,pro,active,2025-07-01,
+C210,basic,active,2026-02-01,

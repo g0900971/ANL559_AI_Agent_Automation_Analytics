@@ -1,0 +1,4 @@
+customer_id,cancel_request_date,billing_end_date,cancel_reason
+C203,2026-06-01,2026-06-05,price
+C204,2026-06-14,2026-06-15,
+C207,2026-05-20,2026-05-28,switched_vendor

@@ -1,0 +1,7 @@
+# Local temporary files
+tmp/
+.agents/
+
+# Microsoft Office lock files
+~$*
+Slide_Decks/~$*.pptx

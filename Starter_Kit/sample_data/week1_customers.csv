@@ -1,0 +1,9 @@
+customer_id,signup_date,subscription_status,plan,last_login_date,is_paid
+C101,2025-01-10,active,pro,2026-06-25,true
+C102,2025-03-18,active,basic,2026-06-10,true
+C103,2024-11-02,cancelled,pro,2026-06-20,false
+C104,2026-01-15,active,basic,2026-05-12,true
+C105,2025-08-22,active,enterprise,2026-06-21,true
+C106,2025-12-05,past_due,pro,2026-06-24,false
+C107,2026-02-14,active,basic,2026-06-01,true
+C108,2024-07-30,active,enterprise,2026-06-18,true
